@@ -1,0 +1,33 @@
+.home{
+    background-image: url('./../../../public/glassesImage/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.header{
+    opacity: 0.8;
+}
+
+.model{
+    position: relative;
+}
+
+.try_glass{
+    width: 13%;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.desc{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fdbd8fd7;
+}
+
+.glass_item{
+    cursor: pointer;
+}
